@@ -30,7 +30,7 @@ The coordinate system of the ESRI shapefile is GCS_WGS_1984. Field descriptions 
 
 You can download this zip file directly.
 
-An example of script for mapping with sd package.
+An example of R script for mapping with [sf](https://cran.r-project.org/web/packages/sf/vignettes/sf5.html) package.
 
 ```r
 if(!any(rownames(installed.packages())=="sf")) install.packages("sf")
