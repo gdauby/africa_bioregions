@@ -30,20 +30,18 @@ You can download this zip file directly.
 
 The script *mapping african bioregions.R* is useful if you want to load and map both shapefiles in R using the sf package.
 
-```{r, eval=T, warning=F, message=F, echo=F}
-if(!any(rownames(installed.packages())=="sf")) install.packages("sf")
-if(!any(rownames(installed.packages())=="ggplot2")) devtools::install_github("tidyverse/ggplot2")
-library(sf)
-library(ggplot2)
-
-unzip("AppendixS3_Shapefile of main floristic bioregions of Tropical Africa, as presented on Figure 1.zip")
-
-bioregions <- st_read("RAINBIO_phytogeography.shp")
-
-plot(bioregions)
-
 
 ```
+## Reading layer `RAINBIO_phytogeography' from data source `C:\MonDossierR\africa_bioregions\RAINBIO_phytogeography.shp' using driver `ESRI Shapefile'
+## Simple feature collection with 27 features and 3 fields
+## geometry type:  MULTIPOLYGON
+## dimension:      XY
+## bbox:           xmin: -17.53722 ymin: -28 xmax: 46 ymax: 16
+## epsg (SRID):    4326
+## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+```
+
+![](README_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
 
 
 
