@@ -8,3 +8,15 @@ Vincent Droissart, Gilles Dauby, Olivier J. Hardy, Vincent Deblauwe, David J. Ha
 
 Journal of biogeography 2018
 
+The shapefiles.zip file contain two shapefiles:
+- bioregions.shp is a shapefile of all bioregions identified in the paper.
+- transition.shp is a shapefile of all transitions areas.
+
+You can download this zip file directly.
+
+The script *mapping african bioregions.R* is useful if you want to load and map both shapefiles in R using the sf package.
+
+
+
+
+
